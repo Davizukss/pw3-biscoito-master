@@ -1,0 +1,4 @@
+<img [hidden]="!oculto" [src]="BiscoitoAbrido" class="img"/>
+<img [hidden]="oculto" [src]="BiscoitoFichado" class="img"/>
+
+<button (click)="MudaBiscoito()">{{oculto ? 'Quebra' : 'Restaura'}}</button>
